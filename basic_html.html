@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Basics</title>
+  </head>
+  <body>
+    <h1>this is the main heading</h1>
+    <hr />
+    <pre>
+        Used to 
+        display text as 
+        it is
+    </pre>
+    <hr />
+    <!-- Semantic Page Layout Techniques -->
+    <header><h2>This is header</h2></header>
+    <main><h3>This is main content</h3></main>
+    <footer><p>This is footer</p></footer>
+
+    <section><p>for a Section on your page</p></section>
+    <article><p>For a article on your page</p></article>
+    <aside>
+      <p>Aside contains addional information related to main information</p>
+    </aside>
+    <hr />
+    <a target="_blank" href="http://google.com">Google</a>
+    <a target="_blank" href="http://google.com"
+      ><img
+        height="32"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1920px-Google_2015_logo.svg.png"
+        alt="Google Logo"
+    /></a>
+    <hr />
+    <h2>Lists in HTML</h2>
+    <ol>
+      <li>apple</li>
+      <li>banana</li>
+    </ol>
+    <ul>
+      <li>dog</li>
+      <li>boat</li>
+    </ul>
+    <hr />
+    <h2>Tables in HTML</h2>
+    <p>use to represent real life data</p>
+
+    <table>
+      <caption aria-colspan="5">
+        Student Data
+      </caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Roll No</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Babar Ali</td>
+          <td>526</td>
+          <td>B+</td>
+        </tr>
+        <tr>
+          <td>Taimour Lakhan</td>
+          <td>529</td>
+          <td>A+</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <form action="#">
+      <label for="name">Name</label>
+      <input type="text" placeholder="Enter Name" id="name" />
+      <label for="id1">
+        <input type="radio" value="classX" name="class" id="id1" />
+      </label>
+      <label for="id2">
+        <input type="radio" value="classX" name="class" id="id2" />
+      </label>
+      <hr />
+      <label for="id1">
+        <input type="checkbox" value="classX" name="class" id="id1" />
+      </label>
+      <label for="id2">
+        <input type="checkbox" value="classX" name="class" id="id2" />
+      </label>
+      <textarea
+        placeholder="Enter feedback here"
+        name="feedback"
+        id="textarea"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <hr />
+      <h2>select</h2>
+      <select name="city" id="city">
+        <option value="">Choose your city</option>
+        <option value="lahore">Lahore</option>
+        <option value="karachi">Karachi</option>
+        <option value="faisalabad">Faisalabd</option>
+      </select>
+    </form>
+    <hr />
+    <h2>IFRAME</h2>
+    <p>website inside website</p>
+    <iframe src="https://www.youtube.com/" frameborder="0"
+      >https://www.youtube.com/</iframe
+    >
+  </body>
+</html>
